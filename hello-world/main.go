@@ -51,7 +51,6 @@ func main() {
 	fmt.Println(White("hello, White world!"))
 	fmt.Println(Teal("hello, Teal world!"))
 	fmt.Println(Green("hello, Green need Blue world!"))
-}
 
 	log.Panic(
 		http.ListenAndServe(":3000", nil),
